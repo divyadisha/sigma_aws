@@ -1,0 +1,83 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7028ab66-bb10-4d05-a9c5-7a1009eed630": {
+        "id": "7028ab66-bb10-4d05-a9c5-7a1009eed630",
+        "parent": null,
+        "name": "sigma_aws.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sigma_aws.py",
+        "cursor": {
+          "lineNumber": 7,
+          "column": 11
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "readhandler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [
+            "arn:aws:lambda:us-east-1:770693421928:layer:Klayers-python38-pandas:31"
+          ],
+          "name": "sigmaaws"
+        },
+        "triggers": [],
+        "lastUpdated": 1620392931218,
+        "testCases": {
+          "288035c5-bff8-4c48-b997-9adcdb211cb7": {
+            "id": "288035c5-bff8-4c48-b997-9adcdb211cb7",
+            "name": "Test event",
+            "functionId": "7028ab66-bb10-4d05-a9c5-7a1009eed630",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "7028ab66-bb10-4d05-a9c5-7a1009eed630"
+    ],
+    "currentFileId": "7028ab66-bb10-4d05-a9c5-7a1009eed630",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.8.0",
+    "projectName": "sigma_aws",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1620396202681
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sigma_aws",
+      "url": "https://github.com/divyadisha/sigma_aws"
+    }
+  }
+}
